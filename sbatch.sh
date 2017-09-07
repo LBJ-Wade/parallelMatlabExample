@@ -7,7 +7,7 @@
 #SBATCH --exclusive
 #SBATCH -t 0-00:40
 #SBATCH -p hernquist
-#SBATCH --mem=4000
+#SBATCH --mem=16000
 #SBATCH --mail-user=pmocz@fas.harvard.edu
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END

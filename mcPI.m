@@ -7,7 +7,7 @@ Nworker = str2num(getenv('SLURM_CPUS_PER_TASK'));
 parpool('local', Nworker);
 
 rng(42);   % seed for the random number generator
-Ndarts = 1e8;
+Ndarts = 1e7;
 
 
 
@@ -18,7 +18,7 @@ count = 0;
 for i = 1:Ndarts
     x = rand(1);
     y = rand(1);
-    if x^2 + y^2 <= 2
+    if x^2 + y^2 <= 1
         count = count + 1;
     end
 end
@@ -26,7 +26,7 @@ piEstimate = 4*count/Ndarts;
 elapsedTimeSerial = toc;
 
 fprintf('PI is estimated to be %8.7f\n',piEstimate);
-fprintf('Code took %8.2f seconds with single core\n', elapsedTimeSerial, Nworker);
+fprintf('Code took %8.2f seconds with single core\n', elapsedTimeSerial);
 
 
 
@@ -36,7 +36,7 @@ count = 0;
 parfor i = 1:Ndarts
     x = rand(1);
     y = rand(1);
-    if x^2 + y^2 <= 2
+    if x^2 + y^2 <= 1
         count = count + 1;
     end
 end
@@ -62,7 +62,7 @@ spmd
     for i = 1:Ndarts
         x = rand(1);
         y = rand(1);
-        if x^2 + y^2 <= 2
+        if x^2 + y^2 <= 1
             count = count + 1;
         end
     end
