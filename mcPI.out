@@ -1,0 +1,82 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                   R2014b (8.4.0.150421) 64-bit (glnxa64)
+                             September 15, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ... connected to 32 workers.
+PI is estimated to be 3.1415988
+Code took   120.32 seconds with single core
+PI is estimated to be 3.1414404
+Code took     8.04 seconds with 32 workers
+Beginning spmd calculation...
+ Lab 31: 
+  Rank 31 out of 32 reports PI to be 3.1415152 taking    80.52 seconds 
+Lab 12: 
+  Rank 12 out of 32 reports PI to be 3.1414912 taking    81.04 seconds 
+Lab 14: 
+  Rank 14 out of 32 reports PI to be 3.1411960 taking    82.67 seconds 
+Lab 30: 
+  Rank 30 out of 32 reports PI to be 3.1412852 taking    87.87 seconds 
+Lab 15: 
+  Rank 15 out of 32 reports PI to be 3.1411068 taking    88.51 seconds 
+Lab 22: 
+  Rank 22 out of 32 reports PI to be 3.1419832 taking    89.51 seconds 
+Lab  9: 
+  Rank 9 out of 32 reports PI to be 3.1415800 taking    92.09 seconds 
+Lab 11: 
+  Rank 11 out of 32 reports PI to be 3.1416904 taking    92.07 seconds 
+Lab 25: 
+  Rank 25 out of 32 reports PI to be 3.1414852 taking    92.90 seconds 
+Lab  1: 
+   Running with  32 labs.
+   Rank 1 out of 32 reports PI to be 3.1420392 taking    94.01 seconds 
+Lab  2: 
+  Rank 2 out of 32 reports PI to be 3.1421576 taking    94.07 seconds 
+Lab 32: 
+  Rank 32 out of 32 reports PI to be 3.1419420 taking    94.93 seconds 
+Lab 17: 
+  Rank 17 out of 32 reports PI to be 3.1418980 taking    95.82 seconds 
+Lab 13: 
+  Rank 13 out of 32 reports PI to be 3.1420828 taking    96.22 seconds 
+Lab 26: 
+  Rank 26 out of 32 reports PI to be 3.1413940 taking    96.05 seconds 
+Lab 10: 
+  Rank 10 out of 32 reports PI to be 3.1423768 taking    97.66 seconds 
+Lab  4: 
+  Rank 4 out of 32 reports PI to be 3.1415148 taking    98.00 seconds 
+Lab  3: 
+  Rank 3 out of 32 reports PI to be 3.1402244 taking    98.50 seconds 
+Lab  5: 
+  Rank 5 out of 32 reports PI to be 3.1415692 taking    99.20 seconds 
+Lab  7: 
+  Rank 7 out of 32 reports PI to be 3.1415552 taking    99.70 seconds 
+Lab 18: 
+  Rank 18 out of 32 reports PI to be 3.1424112 taking    99.77 seconds 
+Lab 19: 
+  Rank 19 out of 32 reports PI to be 3.1417176 taking   101.29 seconds 
+Lab 20: 
+  Rank 20 out of 32 reports PI to be 3.1410544 taking   101.14 seconds 
+Lab 23: 
+  Rank 23 out of 32 reports PI to be 3.1413548 taking   125.78 seconds 
+Lab  6: 
+  Rank 6 out of 32 reports PI to be 3.1410572 taking   128.98 seconds 
+Lab 16: 
+  Rank 16 out of 32 reports PI to be 3.1415396 taking   129.88 seconds 
+Lab  8: 
+  Rank 8 out of 32 reports PI to be 3.1409848 taking   141.03 seconds 
+Lab 24: 
+  Rank 24 out of 32 reports PI to be 3.1424980 taking   142.17 seconds 
+Lab 27: 
+  Rank 27 out of 32 reports PI to be 3.1413980 taking   142.53 seconds 
+Lab 28: 
+  Rank 28 out of 32 reports PI to be 3.1418472 taking   144.59 seconds 
+Lab 29: 
+  Rank 29 out of 32 reports PI to be 3.1417268 taking   149.51 seconds 
+Lab 21: 
+  Rank 21 out of 32 reports PI to be 3.1424108 taking   152.52 seconds 
+Parallel pool using the 'local' profile is shutting down.

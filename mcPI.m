@@ -54,7 +54,7 @@ spmd
     nproc = numlabs;  % get total number of workers
     iproc = labindex; % get lab ID
     if ( iproc == 1 )
-        fprintf ( 1, ' Running with  %d labs.n', nproc );
+        fprintf ( 1, ' Running with  %d labs.\n', nproc );
     end
     
     tic;
